@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB019135209157FF00D45F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB019134209157FF00D45F63 /* AppDelegate.swift */; };
+		BB019137209157FF00D45F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB019136209157FF00D45F63 /* ViewController.swift */; };
+		BB01913A209157FF00D45F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB019138209157FF00D45F63 /* Main.storyboard */; };
+		BB01913D209157FF00D45F63 /* Sedmi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB01913B209157FF00D45F63 /* Sedmi.xcdatamodeld */; };
+		BB01913F2091580400D45F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB01913E2091580400D45F63 /* Assets.xcassets */; };
+		BB0191422091580400D45F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0191402091580400D45F63 /* LaunchScreen.storyboard */; };
+		BB01914D2091580400D45F63 /* SedmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01914C2091580400D45F63 /* SedmiTests.swift */; };
+		BB0191582091580400D45F63 /* SedmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0191572091580400D45F63 /* SedmiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0191492091580400D45F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB019129209157FF00D45F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB019130209157FF00D45F63;
+			remoteInfo = Sedmi;
+		};
+		BB0191542091580400D45F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB019129209157FF00D45F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB019130209157FF00D45F63;
+			remoteInfo = Sedmi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB019131209157FF00D45F63 /* Sedmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sedmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB019134209157FF00D45F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB019136209157FF00D45F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB019139209157FF00D45F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB01913C209157FF00D45F63 /* Sedmi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sedmi.xcdatamodel; sourceTree = "<group>"; };
+		BB01913E2091580400D45F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0191412091580400D45F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB0191432091580400D45F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0191482091580400D45F63 /* SedmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB01914C2091580400D45F63 /* SedmiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedmiTests.swift; sourceTree = "<group>"; };
+		BB01914E2091580400D45F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0191532091580400D45F63 /* SedmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0191572091580400D45F63 /* SedmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedmiUITests.swift; sourceTree = "<group>"; };
+		BB0191592091580400D45F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB01912E209157FF00D45F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0191452091580400D45F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0191502091580400D45F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB019128209157FF00D45F63 = {
+			isa = PBXGroup;
+			children = (
+				BB019133209157FF00D45F63 /* Sedmi */,
+				BB01914B2091580400D45F63 /* SedmiTests */,
+				BB0191562091580400D45F63 /* SedmiUITests */,
+				BB019132209157FF00D45F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB019132209157FF00D45F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB019131209157FF00D45F63 /* Sedmi.app */,
+				BB0191482091580400D45F63 /* SedmiTests.xctest */,
+				BB0191532091580400D45F63 /* SedmiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB019133209157FF00D45F63 /* Sedmi */ = {
+			isa = PBXGroup;
+			children = (
+				BB019134209157FF00D45F63 /* AppDelegate.swift */,
+				BB019136209157FF00D45F63 /* ViewController.swift */,
+				BB019138209157FF00D45F63 /* Main.storyboard */,
+				BB01913E2091580400D45F63 /* Assets.xcassets */,
+				BB0191402091580400D45F63 /* LaunchScreen.storyboard */,
+				BB0191432091580400D45F63 /* Info.plist */,
+				BB01913B209157FF00D45F63 /* Sedmi.xcdatamodeld */,
+			);
+			path = Sedmi;
+			sourceTree = "<group>";
+		};
+		BB01914B2091580400D45F63 /* SedmiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB01914C2091580400D45F63 /* SedmiTests.swift */,
+				BB01914E2091580400D45F63 /* Info.plist */,
+			);
+			path = SedmiTests;
+			sourceTree = "<group>";
+		};
+		BB0191562091580400D45F63 /* SedmiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0191572091580400D45F63 /* SedmiUITests.swift */,
+				BB0191592091580400D45F63 /* Info.plist */,
+			);
+			path = SedmiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB019130209157FF00D45F63 /* Sedmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB01915C2091580400D45F63 /* Build configuration list for PBXNativeTarget "Sedmi" */;
+			buildPhases = (
+				BB01912D209157FF00D45F63 /* Sources */,
+				BB01912E209157FF00D45F63 /* Frameworks */,
+				BB01912F209157FF00D45F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sedmi;
+			productName = Sedmi;
+			productReference = BB019131209157FF00D45F63 /* Sedmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0191472091580400D45F63 /* SedmiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB01915F2091580400D45F63 /* Build configuration list for PBXNativeTarget "SedmiTests" */;
+			buildPhases = (
+				BB0191442091580400D45F63 /* Sources */,
+				BB0191452091580400D45F63 /* Frameworks */,
+				BB0191462091580400D45F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB01914A2091580400D45F63 /* PBXTargetDependency */,
+			);
+			name = SedmiTests;
+			productName = SedmiTests;
+			productReference = BB0191482091580400D45F63 /* SedmiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0191522091580400D45F63 /* SedmiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0191622091580400D45F63 /* Build configuration list for PBXNativeTarget "SedmiUITests" */;
+			buildPhases = (
+				BB01914F2091580400D45F63 /* Sources */,
+				BB0191502091580400D45F63 /* Frameworks */,
+				BB0191512091580400D45F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0191552091580400D45F63 /* PBXTargetDependency */,
+			);
+			name = SedmiUITests;
+			productName = SedmiUITests;
+			productReference = BB0191532091580400D45F63 /* SedmiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB019129209157FF00D45F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Clinton de Sá";
+				TargetAttributes = {
+					BB019130209157FF00D45F63 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BB0191472091580400D45F63 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BB019130209157FF00D45F63;
+					};
+					BB0191522091580400D45F63 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BB019130209157FF00D45F63;
+					};
+				};
+			};
+			buildConfigurationList = BB01912C209157FF00D45F63 /* Build configuration list for PBXProject "Sedmi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB019128209157FF00D45F63;
+			productRefGroup = BB019132209157FF00D45F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB019130209157FF00D45F63 /* Sedmi */,
+				BB0191472091580400D45F63 /* SedmiTests */,
+				BB0191522091580400D45F63 /* SedmiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB01912F209157FF00D45F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0191422091580400D45F63 /* LaunchScreen.storyboard in Resources */,
+				BB01913F2091580400D45F63 /* Assets.xcassets in Resources */,
+				BB01913A209157FF00D45F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0191462091580400D45F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0191512091580400D45F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB01912D209157FF00D45F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB01913D209157FF00D45F63 /* Sedmi.xcdatamodeld in Sources */,
+				BB019137209157FF00D45F63 /* ViewController.swift in Sources */,
+				BB019135209157FF00D45F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0191442091580400D45F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB01914D2091580400D45F63 /* SedmiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB01914F2091580400D45F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0191582091580400D45F63 /* SedmiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB01914A2091580400D45F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB019130209157FF00D45F63 /* Sedmi */;
+			targetProxy = BB0191492091580400D45F63 /* PBXContainerItemProxy */;
+		};
+		BB0191552091580400D45F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB019130209157FF00D45F63 /* Sedmi */;
+			targetProxy = BB0191542091580400D45F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB019138209157FF00D45F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB019139209157FF00D45F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB0191402091580400D45F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0191412091580400D45F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB01915A2091580400D45F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB01915B2091580400D45F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB01915D2091580400D45F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = Sedmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.Sedmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB01915E2091580400D45F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = Sedmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.Sedmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0191602091580400D45F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = SedmiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.SedmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sedmi.app/Sedmi";
+			};
+			name = Debug;
+		};
+		BB0191612091580400D45F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = SedmiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.SedmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sedmi.app/Sedmi";
+			};
+			name = Release;
+		};
+		BB0191632091580400D45F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = SedmiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.SedmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sedmi;
+			};
+			name = Debug;
+		};
+		BB0191642091580400D45F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDT5GDB2EQ;
+				INFOPLIST_FILE = SedmiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = clintonsbm.SedmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sedmi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB01912C209157FF00D45F63 /* Build configuration list for PBXProject "Sedmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB01915A2091580400D45F63 /* Debug */,
+				BB01915B2091580400D45F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB01915C2091580400D45F63 /* Build configuration list for PBXNativeTarget "Sedmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB01915D2091580400D45F63 /* Debug */,
+				BB01915E2091580400D45F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB01915F2091580400D45F63 /* Build configuration list for PBXNativeTarget "SedmiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0191602091580400D45F63 /* Debug */,
+				BB0191612091580400D45F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0191622091580400D45F63 /* Build configuration list for PBXNativeTarget "SedmiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0191632091580400D45F63 /* Debug */,
+				BB0191642091580400D45F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB01913B209157FF00D45F63 /* Sedmi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB01913C209157FF00D45F63 /* Sedmi.xcdatamodel */,
+			);
+			currentVersion = BB01913C209157FF00D45F63 /* Sedmi.xcdatamodel */;
+			path = Sedmi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB019129209157FF00D45F63 /* Project object */;
+}
